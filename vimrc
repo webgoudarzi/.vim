@@ -10,6 +10,18 @@ colorscheme Tomorrow-Night
 " Display line number
 set number
 
+" How many columns a tab should be made up of in the editor view (Controls how tabs are rendered not the actual text)
+set tabstop=4
+
+" Do not insert appropriate amount of spaces in insert mode. Prevents converting tabs to spaces
+set noexpandtab
+
+" How many columns vim uses when you hit tab. When this is equal to tabstop it forces tabs. If it's less than tabstop it will mix spaces and tabs to make up the total spacing
+set softtabstop=4
+
+" How many columns text will be indented using indent operations like >> or <<
+set shiftwidth=4
+
 " Prefix namespace key for custom mappings referenced as <leader> mapping declarations
 let mapleader="-"
 
