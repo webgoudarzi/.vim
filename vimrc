@@ -10,6 +10,15 @@ colorscheme Tomorrow-Night
 " Display line number
 set number
 
+" Disable wrapping of long lines in vim
+set nowrap
+
+" Copy indentation from previous line
+set autoindent
+
+" Customize indentation based on file type. This command will use indentation scripts located in the indent folder of your vim installation
+filetype plugin indent on
+
 " How many columns a tab should be made up of in the editor view (Controls how tabs are rendered not the actual text)
 set tabstop=4
 
