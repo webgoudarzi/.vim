@@ -37,6 +37,15 @@ set softtabstop=4
 " How many columns text will be indented using indent operations like >> or <<
 set shiftwidth=4
 
+" Enable highlighting for various GoLang features
+let g:go_highlight_types = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_extra_types = 1
+let g:go_highlight_build_constraints = 1
+
 " Prefix namespace key for custom mappings referenced as <leader> mapping declarations
 let mapleader="-"
 
