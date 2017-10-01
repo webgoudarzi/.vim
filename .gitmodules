@@ -1,0 +1,3 @@
+[submodule "/Users/webgoudarzi/.vim/bundle/vim-go"]
+	path = /Users/webgoudarzi/.vim/bundle/vim-go
+	url = git@github.com:fatih/vim-go.git
