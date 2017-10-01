@@ -1,3 +1,6 @@
+" Automatically load added plugins in bundle folder
+execute pathogen#infect()
+
 " Autodetect the filetype 
 filetype on
 
