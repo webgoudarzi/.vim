@@ -7,6 +7,9 @@ syntax on
 " Loads a color scheme from colors folder
 colorscheme Tomorrow-Night
 
+" When selecting a parenthesis it will highlight the one matching
+set showmatch
+
 " Display line number
 set number
 
